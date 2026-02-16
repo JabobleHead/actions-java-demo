@@ -12,5 +12,5 @@ jobs:
         with:    
           distribution: temurin
           java-version: '17'    
-        - run: javac Hello.java
-        - run: java Hello
+      - run: javac Hello.java
+      - run: java Hello
